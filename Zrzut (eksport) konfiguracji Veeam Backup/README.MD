@@ -17,6 +17,6 @@ Obejmuje:
         Opcjonalnie mozna wskazac wlasna sciezke pliku wyjsciowego:
         powershell -ExecutionPolicy Bypass -File .\Export-VeeamConfig.ps1 -OutputFile "C:\Dowody\veeam.txt"
 
-## Recomendations & Warnings
+## Recomendations & Warnings && Dependencies
 
     Uwaga: zalecane uruchomienie w Windows PowerShell 5.1 (modul Veeam dziala tam najstabilniej). Skrypt jest tylko do ODCZYTU - nie zmienia  zadnych ustawien systemu.
