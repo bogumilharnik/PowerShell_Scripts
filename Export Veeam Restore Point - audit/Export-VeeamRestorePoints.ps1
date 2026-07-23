@@ -27,42 +27,7 @@ param(
 # --- LISTA DO WERYFIKACJI (maszyna + data wg maila Piotra) -------------------
 # Format: @{ Vm = 'nazwa maszyny (jak w Veeam)'; Date = 'yyyy-MM-dd' }
 $CheckList = @(
-    @{ Vm = 'WinServ2012R2-EODAPP';       Date = '2026-07-09' },
-    @{ Vm = 'WinServ2012R2-EODSQL';       Date = '2026-07-09' },
-    @{ Vm = 'Debian9-KlinikaXP';          Date = '2026-07-09' },
-    @{ Vm = 'WinServ2019-EZDSTAMP';       Date = '2026-07-09' },
-    @{ Vm = 'WinServ2019-FileServer';     Date = '2026-07-09' },
-    @{ Vm = 'Debian12-Poczta';            Date = '2026-07-08' },
-    @{ Vm = 'Ubuntu20-ERP-DataBus';       Date = '2026-07-07' },
-    @{ Vm = 'Ubuntu20-ERP-HCM';           Date = '2026-07-07' },
-    @{ Vm = 'Ubuntu20-mPracownik';        Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-ERP-BI';         Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-ERP-DB0';        Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-ERP-DB1';        Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-EZDAPP';         Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-EZDSQL';         Date = '2026-07-07' },
-    @{ Vm = 'NOVEL-Windows XP';           Date = '2026-07-07' },
-    @{ Vm = 'WinServ2003-SimplePERVASIV'; Date = '2026-07-07' },
-    @{ Vm = 'WinServ2012R2-EODAPP';       Date = '2026-07-07' },
-    @{ Vm = 'WinServ2012R2-EODSQL';       Date = '2026-07-07' },
-    @{ Vm = 'Debian9-KlinikaXP';          Date = '2026-07-07' },
-    @{ Vm = 'WinServ2019-EZDSTAMP';       Date = '2026-07-07' },
-    @{ Vm = 'Debian12-Poczta';            Date = '2026-07-05' },
-    @{ Vm = 'WinSrv2019-ADMT-pracownik';  Date = '2026-05-06' },
-    @{ Vm = 'MS_DCS01';                   Date = '2026-05-06' },
-    @{ Vm = 'MS_DCS02';                   Date = '2026-05-06' },
-    @{ Vm = 'MS_DC1';                     Date = '2026-05-06' },
-    @{ Vm = 'WinServ2019-CA';             Date = '2026-05-06' },
-    @{ Vm = 'WinServ2019-KMS';            Date = '2026-05-06' },
-    @{ Vm = 'MS_DCR01';                   Date = '2026-05-06' },
-    @{ Vm = 'MS_DCR02';                   Date = '2026-05-06' },
-    @{ Vm = 'WinSrv22-AzureSync';         Date = '2026-05-06' },
-    @{ Vm = 'MS_DCP01';                   Date = '2026-05-06' },
-    @{ Vm = 'MS_DCP02';                   Date = '2026-05-06' },
-    @{ Vm = 'WinServ2019-FileServer';     Date = '2026-05-05' },
-    @{ Vm = 'Debian12-Poczta';            Date = '2026-05-04' },
-    @{ Vm = 'WinServ2019-FileServer';     Date = '2026-05-02' },
-    @{ Vm = 'USOS-SAD';                   Date = '2026-04-01' }
+    @{ Vm = 'VMware vCenter Server';       Date = '2026-07-22' },
 )
 
 $ErrorActionPreference = 'Continue'
